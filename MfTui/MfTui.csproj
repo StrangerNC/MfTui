@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Folder Include="Core\"/>
+        <Folder Include="Events\"/>
+        <Folder Include="Input\" />
+        <Folder Include="Layout\" />
+        <Folder Include="Navigation\"/>
+        <Folder Include="Rendering\" />
+        <Folder Include="Widgets\" />
+        <Folder Include="Windowing\"/>
+    </ItemGroup>
+
+</Project>
